@@ -1,7 +1,7 @@
 // Located at: Assets/js/create-account.js
 
 // Example: replace this with your actual API Gateway URL
-const API_URL = "https://<api-id>.execute-api.<region>.amazonaws.com/prod/createUser";
+const API_URL = "https://9ndirmsgb9.execute-api.us-east-2.amazonaws.com/prod/users";
 
 document.addEventListener('DOMContentLoaded', () => {
   const userForm = document.getElementById('userForm');
