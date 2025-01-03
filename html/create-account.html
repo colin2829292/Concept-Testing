@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Create User Account</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <h1>Create User Account</h1>
+
+  <form id="userForm">
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+    
+    <!-- Password -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required />
+
+    <!-- Plan -->
+    <label for="plan">Plan:</label>
+    <select id="plan" name="plan">
+      <option value="monthly" selected>Monthly</option>
+      <option value="yearly">Yearly</option>
+    </select>
+
+    <!-- Auto-Renewal (default is checked) -->
+    <label for="autoRenewal">Auto Renew:</label>
+    <input type="checkbox" id="autoRenewal" name="autoRenewal" checked />
+
+    <button type="submit">Create Account</button>
+  </form>
+
+  <!-- Where we’ll show results/errors -->
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
