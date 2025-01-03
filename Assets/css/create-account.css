@@ -1,0 +1,42 @@
+/* Located at: Assets/css/create-account.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background: #f3f3f3;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  background: #fff;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, select {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
